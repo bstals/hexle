@@ -1,0 +1,119 @@
+html * {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  color: #222;
+  font-size: 16px;
+}
+
+/* HEADER */
+
+header {
+  border-bottom: 1px #d3d6da solid;
+  padding: 12px;
+}
+
+#header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-content > h1 {
+  position: relative;
+  font-size: 2em;
+}
+
+nav {
+  position: absolute;
+  top: 10;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+}
+
+nav > svg {
+  width: 30px;
+  height: 30px;
+  fill: #222;
+  transition: fill ease-in-out 200ms;
+}
+
+nav > svg:hover {
+  fill: #666;
+  cursor: pointer;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  margin-top: 32px;
+}
+
+#grid {
+  width: 384px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #d3d6da;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+
+.color-cell {
+  border: 2px #fff solid;
+}
+.blank {
+  border: none;
+}
+
+#input-section {
+  width: 240px;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+}
+
+.input-cell {
+  width: 36px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #d3d6da;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-cell:hover {
+  cursor: pointer;
+  
+}
+
+
+
+.not-input {
+  width: 76px;
+  height: 36px;
+}
