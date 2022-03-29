@@ -4,7 +4,8 @@ A [Wordle](https://www.nytimes.com/games/wordle/index.html) remake where each da
 
 To Do:
 - Color inputs as you guess
-- Add new color each day
 - Add keystrokes to input
+- Add info/explanation/instructions
+- Add new color each day
 - Handle duplicates
 - Different difficulty modes 
