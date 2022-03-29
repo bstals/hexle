@@ -7,5 +7,6 @@ To Do:
 - Add keystrokes to input
 - Add info/explanation/instructions
 - Add new color each day
+- Dynamically create components
 - Handle duplicates
 - Different difficulty modes 
