@@ -11,4 +11,3 @@ To Do:
 - Add new color each day
 - Handle duplicates
 - Different difficulty modes 
-- Dynamically create components
